@@ -1,0 +1,4 @@
+*.zip
+ApfelGym/ApfelGym/obj/*
+ApfelGym/ApfelGym/bin/*
+ApfelGym/ApfelGym/.vs/*
