@@ -84,7 +84,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(3, 27);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(358, 279);
+            this.pictureBox2.Size = new System.Drawing.Size(264, 279);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -93,9 +93,9 @@
             // 
             this.groupBox2.Controls.Add(this.groupBox4);
             this.groupBox2.Controls.Add(this.groupBox3);
-            this.groupBox2.Location = new System.Drawing.Point(367, 27);
+            this.groupBox2.Location = new System.Drawing.Point(273, 27);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(608, 279);
+            this.groupBox2.Size = new System.Drawing.Size(702, 279);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fitnessclub information";
@@ -110,7 +110,7 @@
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Location = new System.Drawing.Point(6, 19);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(596, 113);
+            this.groupBox4.Size = new System.Drawing.Size(690, 113);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "General";
@@ -120,7 +120,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.label18.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label18.Location = new System.Drawing.Point(387, 35);
+            this.label18.Location = new System.Drawing.Point(457, 27);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(166, 16);
             this.label18.TabIndex = 11;
@@ -130,7 +130,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label19.Location = new System.Drawing.Point(270, 35);
+            this.label19.Location = new System.Drawing.Point(340, 27);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(118, 16);
             this.label19.TabIndex = 10;
@@ -141,7 +141,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.label17.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label17.Location = new System.Drawing.Point(144, 67);
+            this.label17.Location = new System.Drawing.Point(214, 59);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(92, 16);
             this.label17.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label16.Location = new System.Drawing.Point(6, 67);
+            this.label16.Location = new System.Drawing.Point(76, 59);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(135, 16);
             this.label16.TabIndex = 8;
@@ -162,7 +162,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.label15.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label15.Location = new System.Drawing.Point(144, 35);
+            this.label15.Location = new System.Drawing.Point(214, 27);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(51, 16);
             this.label15.TabIndex = 7;
@@ -172,7 +172,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label14.Location = new System.Drawing.Point(6, 35);
+            this.label14.Location = new System.Drawing.Point(76, 27);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(131, 16);
             this.label14.TabIndex = 6;
@@ -194,7 +194,7 @@
             this.groupBox3.Controls.Add(this.customerTotalLabel);
             this.groupBox3.Location = new System.Drawing.Point(6, 132);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(596, 141);
+            this.groupBox3.Size = new System.Drawing.Size(690, 141);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Statistics";
@@ -204,7 +204,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label13.Location = new System.Drawing.Point(270, 98);
+            this.label13.Location = new System.Drawing.Point(340, 99);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(190, 16);
             this.label13.TabIndex = 10;
@@ -215,7 +215,7 @@
             this.paymentLastMonth.AutoSize = true;
             this.paymentLastMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.paymentLastMonth.ForeColor = System.Drawing.Color.Green;
-            this.paymentLastMonth.Location = new System.Drawing.Point(472, 98);
+            this.paymentLastMonth.Location = new System.Drawing.Point(542, 99);
             this.paymentLastMonth.Name = "paymentLastMonth";
             this.paymentLastMonth.Size = new System.Drawing.Size(15, 16);
             this.paymentLastMonth.TabIndex = 11;
@@ -225,7 +225,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label12.Location = new System.Drawing.Point(270, 65);
+            this.label12.Location = new System.Drawing.Point(340, 66);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(189, 16);
             this.label12.TabIndex = 8;
@@ -236,7 +236,7 @@
             this.paymentsThisMonth.AutoSize = true;
             this.paymentsThisMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.paymentsThisMonth.ForeColor = System.Drawing.Color.Green;
-            this.paymentsThisMonth.Location = new System.Drawing.Point(472, 65);
+            this.paymentsThisMonth.Location = new System.Drawing.Point(542, 66);
             this.paymentsThisMonth.Name = "paymentsThisMonth";
             this.paymentsThisMonth.Size = new System.Drawing.Size(15, 16);
             this.paymentsThisMonth.TabIndex = 9;
@@ -246,7 +246,7 @@
             // 
             this.customerVisitsTotalLabel.AutoSize = true;
             this.customerVisitsTotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.customerVisitsTotalLabel.Location = new System.Drawing.Point(208, 98);
+            this.customerVisitsTotalLabel.Location = new System.Drawing.Point(278, 99);
             this.customerVisitsTotalLabel.Name = "customerVisitsTotalLabel";
             this.customerVisitsTotalLabel.Size = new System.Drawing.Size(15, 16);
             this.customerVisitsTotalLabel.TabIndex = 7;
@@ -256,7 +256,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label11.Location = new System.Drawing.Point(6, 98);
+            this.label11.Location = new System.Drawing.Point(76, 99);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(133, 16);
             this.label11.TabIndex = 6;
@@ -266,7 +266,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label8.Location = new System.Drawing.Point(6, 29);
+            this.label8.Location = new System.Drawing.Point(76, 30);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(103, 16);
             this.label8.TabIndex = 0;
@@ -276,7 +276,7 @@
             // 
             this.trainersTotalLabel.AutoSize = true;
             this.trainersTotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.trainersTotalLabel.Location = new System.Drawing.Point(208, 65);
+            this.trainersTotalLabel.Location = new System.Drawing.Point(278, 66);
             this.trainersTotalLabel.Name = "trainersTotalLabel";
             this.trainersTotalLabel.Size = new System.Drawing.Size(15, 16);
             this.trainersTotalLabel.TabIndex = 5;
@@ -286,7 +286,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label9.Location = new System.Drawing.Point(270, 29);
+            this.label9.Location = new System.Drawing.Point(340, 30);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(155, 16);
             this.label9.TabIndex = 1;
@@ -297,7 +297,7 @@
             this.paymentsTotalLabel.AutoSize = true;
             this.paymentsTotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.paymentsTotalLabel.ForeColor = System.Drawing.Color.Green;
-            this.paymentsTotalLabel.Location = new System.Drawing.Point(472, 29);
+            this.paymentsTotalLabel.Location = new System.Drawing.Point(542, 30);
             this.paymentsTotalLabel.Name = "paymentsTotalLabel";
             this.paymentsTotalLabel.Size = new System.Drawing.Size(15, 16);
             this.paymentsTotalLabel.TabIndex = 4;
@@ -307,7 +307,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label10.Location = new System.Drawing.Point(6, 65);
+            this.label10.Location = new System.Drawing.Point(76, 66);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 16);
             this.label10.TabIndex = 2;
@@ -317,7 +317,7 @@
             // 
             this.customerTotalLabel.AutoSize = true;
             this.customerTotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.customerTotalLabel.Location = new System.Drawing.Point(208, 29);
+            this.customerTotalLabel.Location = new System.Drawing.Point(278, 30);
             this.customerTotalLabel.Name = "customerTotalLabel";
             this.customerTotalLabel.Size = new System.Drawing.Size(15, 16);
             this.customerTotalLabel.TabIndex = 3;
@@ -405,7 +405,7 @@
             // 
             this.addPaymentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addPaymentToolStripMenuItem.Image")));
             this.addPaymentToolStripMenuItem.Name = "addPaymentToolStripMenuItem";
-            this.addPaymentToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.addPaymentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addPaymentToolStripMenuItem.Text = "Add payment";
             this.addPaymentToolStripMenuItem.Click += new System.EventHandler(this.addPaymentToolStripMenuItem_Click);
             // 
@@ -413,7 +413,7 @@
             // 
             this.viewPaymentsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("viewPaymentsToolStripMenuItem.Image")));
             this.viewPaymentsToolStripMenuItem.Name = "viewPaymentsToolStripMenuItem";
-            this.viewPaymentsToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.viewPaymentsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.viewPaymentsToolStripMenuItem.Text = "Manage payments";
             this.viewPaymentsToolStripMenuItem.Click += new System.EventHandler(this.viewPaymentsToolStripMenuItem_Click);
             // 
@@ -421,7 +421,7 @@
             // 
             this.searchPaymentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchPaymentToolStripMenuItem.Image")));
             this.searchPaymentToolStripMenuItem.Name = "searchPaymentToolStripMenuItem";
-            this.searchPaymentToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.searchPaymentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.searchPaymentToolStripMenuItem.Text = "Search payment";
             this.searchPaymentToolStripMenuItem.Click += new System.EventHandler(this.searchPaymentToolStripMenuItem_Click);
             // 
