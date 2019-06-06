@@ -18,7 +18,6 @@ namespace ApfelGym
         private Database msaccess = new Database();
         private bool gridItemsChanged = false;
         private List<GridPoint> entrySaved = new List<GridPoint>();
-        
 
         public Payments()
         {
@@ -141,15 +140,15 @@ namespace ApfelGym
 
                 foreach(GridPoint gpt in entrySaved)
                 {
-                    string Id = Database.FilterParam(paymentsGrid.Rows[gpt.GetRow()].Cells["ID"].Value.ToString());
+                    string Id = Database.FilterParam(paymentsGrid.Rows[gpt.row].Cells["ID"].Value.ToString());
                     /*string paymentRecv = Database.FilterParam(paymentsGrid.Rows[gpt.GetRow()].Cells["PaymentReceived"].Value.ToString());
                     //dirty hack here to remove odd dot in Date
                     paymentRecv = paymentRecv.Substring(0, 10).Replace(".", "-") +" "+ paymentRecv.Substring(11, paymentRecv.Length - 11);*/
 
-                    string columnUpdated = Database.FilterParam(paymentsGrid.Columns[gpt.GetColumn()].Name);
-                    string value = Database.FilterParam(paymentsGrid.Rows[gpt.GetRow()].Cells[gpt.GetColumn()].Value.ToString());
+                    string columnUpdated = Database.FilterParam(paymentsGrid.Columns[gpt.column].Name);
+                    string value = Database.FilterParam(paymentsGrid.Rows[gpt.row].Cells[gpt.column].Value.ToString());
 
-                    paymentsGrid.Rows[gpt.GetRow()].Cells[gpt.GetColumn()].Style.BackColor = Color.White;
+                    paymentsGrid.Rows[gpt.row].Cells[gpt.column].Style.BackColor = Color.White;
 
                     string query = string.Format("UPDATE Payment SET {0} = '{1}' WHERE ID = {2}", columnUpdated, value, Id);
 
@@ -174,7 +173,7 @@ namespace ApfelGym
             if (e.RowIndex > -1)
             {
                 gridItemsChanged = true;
-                entrySaved.Add(new GridPoint(e.RowIndex, e.ColumnIndex));
+                entrySaved.Add(new GridPoint() { row = e.RowIndex, column = e.ColumnIndex });
                 paymentsGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Style.BackColor = Color.Red;
             }    
         }
@@ -198,6 +197,7 @@ namespace ApfelGym
                 }
 
                 LoadPaymentsInfo();
+
                 if (count == selectedRows)
                 {
                     MessageBox.Show("Selected entries deleted succesfully!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -208,23 +208,7 @@ namespace ApfelGym
 
     class GridPoint
     {
-        private int row;
-        private int column;
-
-        public GridPoint(int row, int column)
-        {
-            this.row = row;
-            this.column = column;
-        }
-
-        public int GetRow()
-        {
-            return row;
-        }
-
-        public int GetColumn()
-        {
-            return column;
-        }
+        public int row;
+        public int column;
     }
 }

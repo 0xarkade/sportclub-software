@@ -106,11 +106,11 @@ namespace ApfelGym
                 {
                     string ID = dataGridView1.Rows[row.Index].Cells["ID"].Value.ToString();
 
-                    string SQL_ = string.Format("DELETE FROM ClientGroupTraining WHERE TrainingID = " + ID);
+                    string ClientDeleteSql = string.Format("DELETE FROM ClientGroupTraining WHERE TrainingID = " + ID);
 
-                    string SQL = string.Format("DELETE FROM GroupTraining WHERE ID = " + ID);
+                    string GroupTrainingDeleteSql = string.Format("DELETE FROM GroupTraining WHERE ID = " + ID);
 
-                    if (db.ExecNoResult(SQL_) && db.ExecNoResult(SQL))
+                    if (db.ExecNoResult(ClientDeleteSql) && db.ExecNoResult(GroupTrainingDeleteSql))
                     {
                         count++;
                     }

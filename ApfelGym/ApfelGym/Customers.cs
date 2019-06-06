@@ -37,7 +37,6 @@ namespace ApfelGym
         {
             LoadClientInfo();
 
-            //customerGridView.Columns["ID"].ReadOnly = true;
             customerGridView.Columns["ID"].Visible = false;
             customerGridView.ContextMenuStrip = contextMenuStrip1;
         }

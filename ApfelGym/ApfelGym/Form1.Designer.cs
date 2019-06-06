@@ -164,9 +164,9 @@
             this.label15.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.label15.Location = new System.Drawing.Point(144, 35);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 16);
+            this.label15.Size = new System.Drawing.Size(51, 16);
             this.label15.TabIndex = 7;
-            this.label15.Text = "Fitnes";
+            this.label15.Text = "Fitness";
             // 
             // label14
             // 
